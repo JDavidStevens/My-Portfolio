@@ -1,0 +1,28 @@
+.title{
+    color: #fff;    
+}
+
+.full-name{
+display: flex;
+justify-content: center;
+padding-top: 125px;
+font-size: 45px;
+}
+
+.first-name{
+    color: rgb(150, 150, 150);
+    margin-right:18px; 
+}
+
+.job-title{
+    font-size: 45px;
+    margin-top: 5px;
+    opacity: 1;
+    animation: fade 7s ease;
+    color: #61dbfb;
+}
+
+@keyframes fade{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}

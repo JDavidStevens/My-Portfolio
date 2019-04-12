@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-// import './title.css';
+import './title.css';
 
 class Title extends Component {
-  render() {
+
+  render(){
     return (
-      <div className="title">
-        <h1>James</h1><h1>David Stevens</h1>
-        <h2>Web Developer</h2>
+      <div className="title" id="home">
+        <div className="full-name"><h1 className='first-name'>James</h1><h1>David Stevens</h1></div>
+        <h2 className='job-title'>Web Developer</h2>
       </div>
     );
   }
