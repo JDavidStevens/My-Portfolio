@@ -2,6 +2,31 @@
     background-color: #04080a50;
 }
 
+.burger-wrapper{
+    position: absolute;
+    right: 10px;
+}
+
+.burger-logo{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.burger-wrapper-active{
+    position: absolute; 
+    right: -35px;
+}
+.burger-logo-active{
+    height: 30px;
+    margin: 10px -135px 0 135px;
+    transform: rotate(90deg);
+}
+
+@media(min-width:1200px){
+.navbar{
+    background-color: #04080a50;
+}
+
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -15,3 +40,4 @@
     display: flex;
     font-size: 18px;
         }
+    }

@@ -1,0 +1,17 @@
+.navbar-dd{
+    z-index: 1;
+    background-color: #04080cc1;
+    margin-right: 35px;
+}
+
+.navbar-dd li{
+    border: solid rgb(150,150,150) .5px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-dd a{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 115px;
+}

@@ -3,6 +3,36 @@
 }
 
 .full-name{
+justify-content: center;
+padding-top: 75px;
+font-size: 17px;
+}
+
+.first-name{
+    color: rgb(150, 150, 150);
+    margin-bottom: -20px;
+}
+
+.job-title{
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 75px;
+    opacity: 1;
+    animation: fade 7s ease;
+    color: #61dbfb;
+}
+
+@keyframes fade{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@media(min-width:1200px){
+.title{
+    color: #fff;    
+}
+
+.full-name{
 display: flex;
 justify-content: center;
 padding-top: 125px;
@@ -26,4 +56,5 @@ font-size: 45px;
 @keyframes fade{
     0%{opacity: 0}
     100%{opacity: 1}
+}
 }

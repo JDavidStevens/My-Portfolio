@@ -18,5 +18,26 @@ ul{
 a{
   text-decoration: none;
 }
+@media(min-width:1200px){
+.App {
+  text-align: center;
+  margin-top: -15px;
+  background-color: #04080cc1;  
+  font-family: "Robot Mono";
+}
 
+.nb-sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+}
 
