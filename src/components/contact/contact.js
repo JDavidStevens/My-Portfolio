@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-wrapper" id="contact">
         <h1>Contact</h1>
         <div className='ex-links'>
-        <a href='jdavid.stevens@gmail.com'>jdavid.stevens@gmail.com</a>
+        <p>jdavid.stevens@gmail.com</p>
         <a href="https://github.com/JDavidStevens">https://github.com/JDavidStevens</a>
         <a href="https://www.linkedin.com/in/jdavidstevens/">/in/jdavidstevens</a>
         </div>
