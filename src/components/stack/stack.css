@@ -1,0 +1,44 @@
+.stack{
+    border-top: dashed 1px #fff;
+    padding-bottom: 25px;
+}
+
+.tech-title{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.stack span{
+    color: rgb(150,150,150);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.stack img{
+    height: 150px;
+    animation: fade 5s linear;
+}
+
+.row-one{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 0;
+}
+
+.row-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 150px;
+}
+
+.row-three{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 0;
+}
+
+@keyframes fade{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}

@@ -17,6 +17,7 @@ font-size: 45px;
 .job-title{
     font-size: 45px;
     margin-top: 5px;
+    margin-bottom: 150px;
     opacity: 1;
     animation: fade 7s ease;
     color: #61dbfb;

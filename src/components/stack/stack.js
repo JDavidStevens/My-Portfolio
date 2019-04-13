@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './stack.css';
 import ReactLogo from '../../assets/Portfolio Logos/transparentReact.png';
 import JSLogo from '../../assets/Portfolio Logos/JS Logo.png';
-import NodeLogo from '../../assets/Portfolio Logos/Nodejs Logo.png';
-import HTMLLogo from '../../assets/Portfolio Logos/HTML5 Logo.png';
-import CSSLogo from '../../assets/Portfolio Logos/CSS Logo.png';
+import NodeLogo from '../../assets/Portfolio Logos/nodejs.png';
+import HTMLLogo from '../../assets/Portfolio Logos/HTML.png';
+import CSSLogo from '../../assets/Portfolio Logos/css.png';
 import ReduxLogo from '../../assets/Portfolio Logos/Redux Logo.png';
 import MobXLogo from '../../assets/Portfolio Logos/MobX.png';
 import PostgresLogo from '../../assets/Portfolio Logos/Postgresql Logo.png';
@@ -17,7 +17,7 @@ class Stack extends Component {
   render() {
     return (
       <div className="stack" id="technologies">
-        <h1>Technologies</h1>
+        <h1 className='tech-title'>Technologies</h1>
         <div className="image-container">
           <div className="row-one">
           <div><div><img src={ReactLogo} alt='React'/></div><span>React.js</span></div>

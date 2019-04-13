@@ -1,0 +1,27 @@
+.about-wrapper{
+    border-top: dashed 1px #fff;
+    padding-bottom: 40px;
+} 
+
+.about-title{
+margin-top: 50px;
+color: #fff;
+font-size: 40px;
+}
+#about div p{
+    padding:0 450px;
+    line-height: 25px;
+}
+
+
+#about p{
+text-align: justify;  
+color: rgb(150,150,150);
+font-size: 18px;
+font-weight: 900;
+}
+
+.about-stack{
+color: #fff;
+margin: 0;
+}
