@@ -13,7 +13,7 @@ class FridgeRaiders extends Component {
     return (
       <div>
       <Media
-      query="(max-width:750px)"
+      query="(max-width:815px)"
       render={()=>
         <div>
           <h1 className="mobile-project-title"><a href='https://www.fridge-raiders.site/#/'>Fridge-raiders.site</a></h1>
@@ -46,7 +46,7 @@ class FridgeRaiders extends Component {
       </div>
       }/>
         <Media
-      query="(min-width:751px)"
+      query="(min-width:816px)"
       render={()=>
         <div className="project-wrapper">
       <Carousel

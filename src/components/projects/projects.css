@@ -7,7 +7,7 @@
 .projects-wrapper h1{
     color: rgb(150,150,150);
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .carousel{
@@ -16,11 +16,11 @@
 }
 
 .carousel img{
-    height: 200px;
+    height: 250px;
 }
 
 .project-description{
-    margin: 0 0 25px 0;
+    margin: -9px 0 25px 0;
 }
 
 .mobile-project-title{
@@ -48,6 +48,135 @@
     margin: 0 30px;
 }
 
+@media(min-width:560px){
+.carousel{
+    width:70%;
+    margin-left:87px;
+}
+
+.carousel img{
+    height: 290px;
+}
+
+.project-description p{
+    color: rgb(150,150,150);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px 25px;
+    margin: 0 70px;
+}
+}
+
+@media(min-width:630px){
+.carousel{
+    width:70%;
+    margin-left:98px;
+}
+
+.carousel img{
+    height: 375px;
+}
+}
+
+@media(min-width:660px){
+    .project-description p{
+        margin: 0 78px;
+    }
+}
+
+@media(min-width:730px){
+.carousel{
+    width:75%;
+    margin-left:85px;
+}
+
+.project-description p{
+    margin: 0 70px 0 63px;
+}
+
+.carousel img{
+    height: 400px;
+}
+}
+
+@media(min-width:760px){
+    .mobile-project-title a{
+        font-size: 30px;
+    }
+
+    .project-description p{
+        margin: 0 77px 0 63px;
+    }
+}
+
+@media(min-width:800px){
+.carousel{
+    width:70%;
+    margin-left:122px;
+}
+
+.project-description p{
+    margin: 0 97px 0 95px;
+}
+
+.carousel img{
+    height: 425px;
+}
+}
+
+@media(min-width:1000px){
+.projects-wrapper{    
+    background-color: initial;
+    border-top: dashed 1px #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.projects-wrapper h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.project-wrapper{
+    padding-left:50px;
+    display: flex;
+}
+
+.carousel{
+    width:50%;
+    margin: 25px 0 75px 0;
+    border: none;
+}
+
+.carousel img{
+    height: 400px
+}
+
+.project-description{
+    width: 35%;
+    margin: 10px 50px;
+}
+
+.project-description h1{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.project-description a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.project-description p{
+    color: rgb(150,150,150);
+    text-align: left;
+    font-size: 16.5px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0 15px;
+}
+}
 @media(min-width:1200px){
 .projects-wrapper{    
     background-color: initial;
@@ -73,12 +202,12 @@
 }
 
 .carousel img{
-    height: 350px
+    height: 400px
 }
 
 .project-description{
     width: 35%;
-    margin: 0 50px;
+    margin: 10px 50px;
 }
 
 .project-description h1{

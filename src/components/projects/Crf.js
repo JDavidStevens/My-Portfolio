@@ -13,7 +13,7 @@ class Crf extends Component {
     return (
       <div>
       <Media
-      query="(max-width:750px)"
+      query="(max-width:815px)"
       render={()=>
         <div>
           <h1 className="mobile-project-title"><a href="dsportklone1.com">Dsportklone1.com</a></h1>
@@ -47,7 +47,7 @@ class Crf extends Component {
       }
       />
       <Media
-      query="(min-width:751px)"
+      query="(min-width:816px)"
       render={()=>
         <div className="project-wrapper">
         <Carousel

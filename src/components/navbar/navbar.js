@@ -17,7 +17,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <Media
-          query="(max-width:750px)"
+          query="(max-width:560px)"
           render={() => (
             <div>
               {this.state.hamburger === true ? (
@@ -45,7 +45,7 @@ class Navbar extends Component {
           )}
         />
         <Media
-          query="(min-width:751px)"
+          query="(min-width:561px)"
           render={() => (
             <div>
               <div className="navbar-wrapper">

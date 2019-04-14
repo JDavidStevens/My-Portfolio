@@ -15,7 +15,7 @@ class TradingWheels extends Component {
     return (
       <div >
       <Media 
-      query="(max-width: 750px)"
+      query="(max-width: 815px)"
       render={()=>
       <div>
         <h1 className="mobile-project-title"><a href="tradingwheelsinvestments.com">Tradingwheelsinvestments.com</a></h1>
@@ -57,7 +57,7 @@ React, JavaScript, HTML, CSS, and Auth0. The server was created with Node.js. Da
         }
       />
       <Media 
-      query="(min-width: 751px)"
+      query="(min-width: 816px)"
       render={()=>
       <div className="project-wrapper">
       <Carousel
