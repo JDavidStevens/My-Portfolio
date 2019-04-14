@@ -1,53 +1,56 @@
-.projects-wrapper{    
-    border-top: dashed 1px #fff;
-    padding-top: 40px;
+.projects-wrapper{ 
+    border-top: solid 5px #61dbfb; 
     padding-bottom: 40px;
+    background-color: 	#000;
 }
 
 .projects-wrapper h1{
-    color: #fff;
-    font-size: 50px;
-}
-
-.project-wrapper{
-    /* padding-left:275px; */
-    /* display: flex; */
+    color: rgb(150,150,150);
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .carousel{
-    width:38%;
-    margin: 25px 0 75px 0;
+    width:100%;
+    margin-bottom: -9px;
 }
 
 .carousel img{
-    height: 350px
+    height: 200px;
 }
 
 .project-description{
-    width: 35%;
-    margin: 0 75px;
+    margin: 0 0 25px 0;
 }
 
-.project-description h1{
-    font-size: 23px;
+.mobile-project-title{
+    margin: 5px 0 -5px 0; 
+    border-top: dashed 1px rgb(150,150,150);   
+}
+
+.mobile-project-title a{
+    color: #fff;    
+    font-size: 20px;
 }
 
 .project-description a{
     color: #fff;
     text-decoration: underline;
+    word-wrap: break-word;
 }
 
 .project-description p{
     color: rgb(150,150,150);
     text-align: left;
-    font-size: 16.5px;
+    font-size: 17px;
     font-weight: 600;
-    padding: 5px 35px;
-    margin: 0 35px;
+    padding: 5px 5px;
+    margin: 0 30px;
 }
 
 @media(min-width:1200px){
 .projects-wrapper{    
+    background-color: initial;
     border-top: dashed 1px #fff;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -66,6 +69,7 @@
 .carousel{
     width:38%;
     margin: 25px 0 75px 0;
+    border: none;
 }
 
 .carousel img{
@@ -74,11 +78,12 @@
 
 .project-description{
     width: 35%;
-    margin: 0 75px;
+    margin: 0 50px;
 }
 
 .project-description h1{
     font-size: 23px;
+    margin-bottom: 10px;
 }
 
 .project-description a{
