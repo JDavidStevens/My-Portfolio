@@ -18,7 +18,7 @@ class TradingWheels extends Component {
       query="(max-width: 815px)"
       render={()=>
       <div>
-        <h1 className="mobile-project-title"><a href="tradingwheelsinvestments.com">Tradingwheelsinvestments.com</a></h1>
+        <h1 className="mobile-project-title"><a href="https://tradingwheelsinvestments.com/#/">Tradingwheelsinvestments.com</a></h1>
         <Carousel
         className="carousel"
         showThumbs={false}
@@ -84,7 +84,7 @@ React, JavaScript, HTML, CSS, and Auth0. The server was created with Node.js. Da
             </div>
         </Carousel>
         <div className="project-description">
-        <h1><a href="tradingwheelsinvestments.com">Tradingwheelsinvestments.com</a></h1>
+        <h1><a href="https://tradingwheelsinvestments.com/#/">Tradingwheelsinvestments.com</a></h1>
         <p>A mock investment site designed for new or infrequent investors.</p>
         <p>The idea behind it is to show how a brokerage firm can remove the clutter and industry jargon which can be frustrating for less experienced investors.</p>
         <p>The site uses programmed logic to help users place trades accurately, according to their specifications, without having to know the vocabulary of the brokerage industry. </p>

@@ -38,8 +38,8 @@ class FridgeRaiders extends Component {
             </div>
         </Carousel>
       <div className="project-description">
-        <p>Worked with a group of fellow students to create Fridgeraiders, a recipe/cooking app. This appallows users to enter ingredients which they have on hand and receive a list of recipes whichinclude those ingredients. The sight uses a third-party API which draws recipes from a number ofsources to provide users with a large variety of culinary options.</p>
-        <p>The front-end for this site was built using React, JavaScript, HTML, and CSS. SASS was also used for styling features</p>
+        <p>Worked with a group of fellow students to create Fridgeraiders, a recipe/cooking app. This app allows users to enter ingredients which they have on hand and receive a list of recipes which include those ingredients. The site uses a third-party API which draws recipes from a number of sources to provide users with a large variety of culinary options.</p>
+        <p>The front-end for this site was built using React, JavaScript, HTML, and CSS. SASS was also used for styling features.</p>
         <p>The back-end utilizes Node.js for the server which connects to a database using Massive. The database is with PostgreSQL.</p>
         <p>Feel free to view to code to this project at: <a href='https://github.com/Fridgerators/fridgeraider'>https://github.com/Fridgerators/fridgeraider</a></p>
         </div>
@@ -71,8 +71,8 @@ class FridgeRaiders extends Component {
         </Carousel>
       <div className="project-description">
       <h1><a href='https://www.fridge-raiders.site/#/'>Fridge-raiders.site</a></h1>
-        <p>Worked with a group of fellow students to create Fridgeraiders, a recipe/cooking app. This appallows users to enter ingredients which they have on hand and receive a list of recipes whichinclude those ingredients. The sight uses a third-party API which draws recipes from a number ofsources to provide users with a large variety of culinary options.</p>
-        <p>The front-end for this site was built using React, JavaScript, HTML, and CSS. SASS was also used for styling features</p>
+        <p>Worked with a group of fellow students to create Fridgeraiders, a recipe/cooking app. This app allows users to enter ingredients which they have on hand and receive a list of recipes which include those ingredients. The site uses a third-party API which draws recipes from a number of sources to provide users with a large variety of culinary options.</p>
+        <p>The front-end for this site was built using React, JavaScript, HTML, and CSS. SASS was also used for styling features.</p>
         <p>The back-end utilizes Node.js for the server which connects to a database using Massive. The database is with PostgreSQL.</p>
         <p>Feel free to view to code to this project at: <a href='https://github.com/Fridgerators/fridgeraider'>https://github.com/Fridgerators/fridgeraider</a></p>
         </div>

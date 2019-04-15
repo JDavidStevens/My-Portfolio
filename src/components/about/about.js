@@ -14,11 +14,7 @@ class About extends Component {
             investments, I developed a strong interest in how technology is
             continually re-shaping the brokerage industry, along with almost
             everything else. This led me to pursue an education at DevMountain,
-            a web development boot camp. I am currently learning and honing my
-            skills in{" "}
-            <span className="about-stack">
-              JavaScript, HTML, CSS, SQL, and React.
-            </span>
+            a web development boot camp. 
           </p>
 
           <p>
