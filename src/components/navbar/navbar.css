@@ -22,7 +22,7 @@
 
 .burger-wrapper-active{
     position: absolute; 
-    right: -35px;
+    right: 0px;
 }
 
 .burger-logo-active{
@@ -46,7 +46,23 @@
     transform: rotate(45deg) translate(-2px,-2px);
 }
 
+@media(min-width:350px){
+    .burger-logo-active{
+        margin: 12px 0 -3px 360px;
+    }
+}
 
+@media(min-width:370px){
+    .burger-logo-active{
+        margin: 14px 0 -7px 370px;
+    }
+}
+
+@media(min-width:410px){
+    .burger-logo-active{
+        margin: 14px 0 -7px 410px;
+    }
+}
 
 @media(min-width:560px){
 .navbar ul{

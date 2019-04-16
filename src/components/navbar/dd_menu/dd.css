@@ -1,7 +1,7 @@
 .navbar-dd{
     z-index: 1;
     background-color: #04080cc1;
-    margin-right: 35px;
+    /* margin-right: 35px; */
 }
 
 .navbar-dd li{
@@ -13,11 +13,25 @@
 .navbar-dd a{
     color: #fff;
     font-size: 18px;
-    padding: 10px 115px;
+    padding: 10px 0;
+    /* padding: 10px 115px; */
 }
 
-/* @media(min-width:550){
-    .navbar-dd a{
-        padding
-    }
-} */
+@media(min-width:350px){
+.navbar-dd a{
+    padding: 10px 135px;
+}
+}
+
+@media(min-width:370px){
+.navbar-dd a{
+    padding: 10px 140px;
+}
+}
+
+@media(min-width:410px){
+.navbar-dd a{
+    padding: 10px 160px;
+}
+}
+
