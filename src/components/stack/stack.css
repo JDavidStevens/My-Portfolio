@@ -60,7 +60,7 @@
 }
 
 .stack img{
-    height: 150px;
+    height: 140px;
     animation: fade 5s linear;
 }
 
@@ -80,6 +80,12 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: 50px 0;
+}
+
+.row-four{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 150px;
 }
 
 @keyframes fade{
